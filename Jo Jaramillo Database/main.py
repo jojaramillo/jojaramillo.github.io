@@ -4,7 +4,7 @@ import sqlite3
 import csv
 db = sqlite3.connect("zagster.sqlite3.db")
 with open('all.csv', 'r') as sample_csv:
-lines = csv.reader(sample_csv, delimiter=',')
+ lines = csv.reader(sample_csv, delimiter=',')
  for row in lines:
  user_id = row[0]
  rental_id = row[1]
