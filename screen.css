@@ -39,9 +39,6 @@ q, blockquote {
     content: "";
     content: none; }
 
-a img {
-  border: none; }
-
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
@@ -54,5 +51,15 @@ a {
   a:hover {
     color: #009ce0; }
 
-#main {
-  padding: 50px; }
+  a img{ 
+    border: none;
+}
+
+body{
+    background-color: lavender
+} 
+.jumbotron {
+    background-image: url("IMG_2736.JPG");
+    background-size: Cover;
+    Height: 550px;
+  }
